@@ -1,0 +1,15 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*.so
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+
+# Raw data
+data/raw/
+data/processed/
+
