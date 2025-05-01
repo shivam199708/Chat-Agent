@@ -10,3 +10,4 @@ scikit-learn
 matplotlib
 wordcloud
 streamlit   
+sentence-transformers
