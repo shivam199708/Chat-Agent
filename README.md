@@ -5,7 +5,7 @@ A retrieval-based chatbot trained on the Ubuntu Dialogue Corpus using Sentence T
 ---
 
 ## 🚀 Demo
-**Live App**: [Click here to try it out](https://chat-agent.streamlit.app)
+**Live App**: [Click here to try it out](https://chat-agent-ci6erwl7and4p9puahgofz.streamlit.app/)
 
 ---
 
