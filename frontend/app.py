@@ -20,22 +20,33 @@ model, nn_model, context_vectors, responses = load_agent()
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
+if "last_input" not in st.session_state:
+    st.session_state.last_input = ""
 
-st.title("🧠 Ubuntu Chat Agent (Semantic Search)")
-st.caption("Now powered by Sentence Transformers!")
+st.title("🧠 Ubuntu Chat Agent (Top-K + Context Aware)")
+st.caption("Powered by Sentence Transformers and Smart Retrieval")
 
 with st.form("chat_form", clear_on_submit=True):
     user_input = st.text_input("You:", placeholder="Ask about Ubuntu...")
     submitted = st.form_submit_button("Send")
 
     if submitted and user_input:
-        user_vec = model.encode([user_input], normalize_embeddings=True)
-        dist, idx = nn_model.kneighbors(user_vec, n_neighbors=1)
-        idx = idx[0][0]
-        response = responses[idx]
-        st.session_state.chat_history.append(("You", user_input))
-        st.session_state.chat_history.append(("Agent", response))
+        # Combine previous user input for context-aware query
+        full_query = (st.session_state.last_input + " " + user_input).strip()
+        user_vec = model.encode([full_query], normalize_embeddings=True)
+        dist, idxs = nn_model.kneighbors(user_vec, n_neighbors=3)
 
+        suggestions = [responses[i] for i in idxs[0]]
+
+        # Store current interaction
+        st.session_state.chat_history.append(("You", user_input))
+        for response in suggestions:
+            st.session_state.chat_history.append(("Agent", response))
+
+        # Update previous input
+        st.session_state.last_input = user_input
+
+# Display conversation
 for role, msg in st.session_state.chat_history:
     if role == "You":
         st.markdown(f"**🧑 You:** {msg}")
