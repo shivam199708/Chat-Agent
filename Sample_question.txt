@@ -1,0 +1,49 @@
+Question to test for :
+
+## 💻 System & Installation
+
+1. How do I install Ubuntu on a USB drive?
+2. What are the system requirements for Ubuntu?
+3. How do I dual-boot Ubuntu with Windows 11?
+4. Ubuntu is stuck on the loading screen after installation. What should I do?
+5. Can I install Ubuntu without losing my Windows files?
+
+---
+
+## 🌐 Network & Internet
+
+6. My WiFi is not working on Ubuntu.
+7. How do I reset my network settings?
+8. Why can't I connect to my Bluetooth speaker?
+9. Ethernet is connected but there's no internet.
+10. How do I update my DNS settings in Ubuntu?
+
+---
+
+## 📦 Package Management
+
+11. How do I install Chrome on Ubuntu?
+12. What is the command to update all packages?
+13. How do I fix broken packages in Ubuntu?
+14. What’s the difference between apt and apt-get?
+15. How do I remove a package and its config files?
+
+---
+
+## 🎨 Desktop & UI
+
+16. My screen resolution is stuck — how do I change it?
+17. How do I enable dark mode in Ubuntu?
+18. How can I customize the GNOME desktop?
+19. The taskbar disappeared. How do I bring it back?
+20. How to change default applications?
+
+---
+
+## ⚙️ Advanced/Terminal
+
+21. How to kill a process by name in Ubuntu?
+22. What does `sudo` actually do?
+23. How can I find which port a process is using?
+24. How do I schedule a job using cron?
+25. How do I list all installed packages?
