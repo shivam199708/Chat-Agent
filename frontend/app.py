@@ -73,4 +73,4 @@ for i, entry in enumerate(st.session_state.chat_history):
 # Save feedback to file
 if st.button("💾 Save Feedback"):
     save_feedback(st.session_state.feedback_log)
-    st.success("✅ Feedback saved to feedback_log.jsonl")
+    st.success("✅ Feedback saved to feedback_log.jsonl")  #just for repdeployment
