@@ -1,0 +1,128 @@
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "'nslookup'", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "right click nm-applet in the gnome-panel then edit connections > wireless connections > select one > IPv4 settings, you need to set Method to DHCP only or manual to edit the DNS Servers", "feedback": "up"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "'nslookup'", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "right click nm-applet in the gnome-panel then edit connections > wireless connections > select one > IPv4 settings, you need to set Method to DHCP only or manual to edit the DNS Servers", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "You can edit /etc/resolv.conf or there is probably a GUI option somewhere...", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "'nslookup'", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "right click nm-applet in the gnome-panel then edit connections > wireless connections > select one > IPv4 settings, you need to set Method to DHCP only or manual to edit the DNS Servers", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "You can edit /etc/resolv.conf or there is probably a GUI option somewhere...", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there's some very serious privacy issues relating to chrome, i would strongly advise holding off on it.", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "'nslookup'", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "right click nm-applet in the gnome-panel then edit connections > wireless connections > select one > IPv4 settings, you need to set Method to DHCP only or manual to edit the DNS Servers", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "You can edit /etc/resolv.conf or there is probably a GUI option somewhere...", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there's some very serious privacy issues relating to chrome, i would strongly advise holding off on it.", "feedback": "down"}
+{"context": "I want exact steps to install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "I want exact steps to install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "down"}
+{"context": "I want exact steps to install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "How do I list all installed packages?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I list all installed packages?", "response": "dpkg -l|grep ii", "feedback": "down"}
+{"context": "How do I list all installed packages?", "response": "chromium-browser", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "'nslookup'", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "right click nm-applet in the gnome-panel then edit connections > wireless connections > select one > IPv4 settings, you need to set Method to DHCP only or manual to edit the DNS Servers", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "You can edit /etc/resolv.conf or there is probably a GUI option somewhere...", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there's some very serious privacy issues relating to chrome, i would strongly advise holding off on it.", "feedback": "down"}
+{"context": "I want exact steps to install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "I want exact steps to install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "down"}
+{"context": "I want exact steps to install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "How do I list all installed packages?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I list all installed packages?", "response": "dpkg -l|grep ii", "feedback": "down"}
+{"context": "How do I list all installed packages?", "response": "chromium-browser", "feedback": "down"}
+{"context": "How to change default applications?", "response": "check the dpkg man page.", "feedback": "down"}
+{"context": "How to change default applications?", "response": "dpkg -l|grep ii", "feedback": "down"}
+{"context": "How to change default applications?", "response": "dpkg -l", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "'nslookup'", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "right click nm-applet in the gnome-panel then edit connections > wireless connections > select one > IPv4 settings, you need to set Method to DHCP only or manual to edit the DNS Servers", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "You can edit /etc/resolv.conf or there is probably a GUI option somewhere...", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there's some very serious privacy issues relating to chrome, i would strongly advise holding off on it.", "feedback": "down"}
+{"context": "I want exact steps to install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "I want exact steps to install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "down"}
+{"context": "I want exact steps to install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "How do I list all installed packages?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I list all installed packages?", "response": "dpkg -l|grep ii", "feedback": "down"}
+{"context": "How do I list all installed packages?", "response": "chromium-browser", "feedback": "down"}
+{"context": "How to change default applications?", "response": "check the dpkg man page.", "feedback": "down"}
+{"context": "How to change default applications?", "response": "dpkg -l|grep ii", "feedback": "down"}
+{"context": "How to change default applications?", "response": "dpkg -l", "feedback": "down"}
+{"context": "How do I reset my network settings?", "response": "and consider the ifplug package", "feedback": "down"}
+{"context": "How do I reset my network settings?", "response": "use Sudo", "feedback": "down"}
+{"context": "How do I reset my network settings?", "response": "as root: rm /etc/alternatives/x-www-browser; ln -s path_to_new_browser /etc/alternatives/x-www-browser", "feedback": "up"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "My WiFi is not working on Ubuntu", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "'nslookup'", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "right click nm-applet in the gnome-panel then edit connections > wireless connections > select one > IPv4 settings, you need to set Method to DHCP only or manual to edit the DNS Servers", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "You can edit /etc/resolv.conf or there is probably a GUI option somewhere...", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there's some very serious privacy issues relating to chrome, i would strongly advise holding off on it.", "feedback": "down"}
+{"context": "I want exact steps to install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "I want exact steps to install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "down"}
+{"context": "I want exact steps to install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "How do I list all installed packages?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I list all installed packages?", "response": "dpkg -l|grep ii", "feedback": "down"}
+{"context": "How do I list all installed packages?", "response": "chromium-browser", "feedback": "down"}
+{"context": "How to change default applications?", "response": "check the dpkg man page.", "feedback": "down"}
+{"context": "How to change default applications?", "response": "dpkg -l|grep ii", "feedback": "down"}
+{"context": "How to change default applications?", "response": "dpkg -l", "feedback": "down"}
+{"context": "How do I reset my network settings?", "response": "and consider the ifplug package", "feedback": "down"}
+{"context": "How do I reset my network settings?", "response": "use Sudo", "feedback": "down"}
+{"context": "How do I reset my network settings?", "response": "as root: rm /etc/alternatives/x-www-browser; ln -s path_to_new_browser /etc/alternatives/x-www-browser", "feedback": "up"}
+{"context": "Ethernet is connected but there's no internet.", "response": "dhclient eth0", "feedback": "down"}
+{"context": "Ethernet is connected but there's no internet.", "response": "Ideas for what?", "feedback": "down"}
+{"context": "Ethernet is connected but there's no internet.", "response": "tried sudo dhclient?", "feedback": "down"}
