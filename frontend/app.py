@@ -45,9 +45,8 @@ with st.form("chat_form", clear_on_submit=True):
 
         suggestions = [responses[i] for i in idxs[0]]
 
-        st.session_state.chat_history.append(("You", user_input))
-        for response in suggestions:
-            st.session_state.chat_history.append(("Agent", response, user_input))
+        # Overwrite chat history with only the current user input and responses
+        st.session_state.chat_history = [("You", user_input)] + [("Agent", res, user_input) for res in suggestions]
 
         st.session_state.last_input = user_input
 
@@ -73,4 +72,4 @@ for i, entry in enumerate(st.session_state.chat_history):
 # Save feedback to file
 if st.button("💾 Save Feedback"):
     save_feedback(st.session_state.feedback_log)
-    st.success("✅ Feedback saved to feedback_log.jsonl")  #just for repdeployment
+    st.success("✅ Feedback saved to feedback_log.jsonl")
