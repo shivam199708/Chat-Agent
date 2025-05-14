@@ -20,7 +20,7 @@ def train_semantic_agent(
     os.makedirs(model_output_dir, exist_ok=True)
 
     # Load sentence transformer
-    model = SentenceTransformer("all-MiniLM-L6-v2")
+    model = SentenceTransformer("models/fine_tuned_model")
     context_vectors = model.encode(contexts, show_progress_bar=True, normalize_embeddings=True)
 
     # Fit Nearest Neighbor
