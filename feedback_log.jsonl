@@ -126,3 +126,409 @@
 {"context": "Ethernet is connected but there's no internet.", "response": "dhclient eth0", "feedback": "down"}
 {"context": "Ethernet is connected but there's no internet.", "response": "Ideas for what?", "feedback": "down"}
 {"context": "Ethernet is connected but there's no internet.", "response": "tried sudo dhclient?", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "I did. It was long ago, but I basically had to blacklist broadcom and use ndiswrapper to get it working. I believe I haven't had to do that with lucid", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "seen:", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "welcome", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "I did. It was long ago, but I basically had to blacklist broadcom and use ndiswrapper to get it working. I believe I haven't had to do that with lucid", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "seen:", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "welcome", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "/msg ubottu grub", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "the installer does all that", "feedback": "up"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "try this: http://apcmag.com/how_to_dual_boot_linux_and_windows_xp_linux_installed_first.htm", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "I did. It was long ago, but I basically had to blacklist broadcom and use ndiswrapper to get it working. I believe I haven't had to do that with lucid", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "seen:", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "welcome", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "/msg ubottu grub", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "the installer does all that", "feedback": "up"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "try this: http://apcmag.com/how_to_dual_boot_linux_and_windows_xp_linux_installed_first.htm", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "me too i have same proplem setting it", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "edit /etc/default/grub", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "I did. It was long ago, but I basically had to blacklist broadcom and use ndiswrapper to get it working. I believe I haven't had to do that with lucid", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "seen:", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "welcome", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "/msg ubottu grub", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "the installer does all that", "feedback": "up"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "try this: http://apcmag.com/how_to_dual_boot_linux_and_windows_xp_linux_installed_first.htm", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "me too i have same proplem setting it", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "edit /etc/default/grub", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "edit /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "up"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "upgrade upgrades from one version to another, update updates packages that have newer bug/security fixes", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "I did. It was long ago, but I basically had to blacklist broadcom and use ndiswrapper to get it working. I believe I haven't had to do that with lucid", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "seen:", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "welcome", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "/msg ubottu grub", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "the installer does all that", "feedback": "up"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "try this: http://apcmag.com/how_to_dual_boot_linux_and_windows_xp_linux_installed_first.htm", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "me too i have same proplem setting it", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "edit /etc/default/grub", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "edit /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "up"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "upgrade upgrades from one version to another, update updates packages that have newer bug/security fixes", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "up"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "I did. It was long ago, but I basically had to blacklist broadcom and use ndiswrapper to get it working. I believe I haven't had to do that with lucid", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "seen:", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "welcome", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "/msg ubottu grub", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "the installer does all that", "feedback": "up"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "try this: http://apcmag.com/how_to_dual_boot_linux_and_windows_xp_linux_installed_first.htm", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "me too i have same proplem setting it", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "edit /etc/default/grub", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "edit /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "up"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "upgrade upgrades from one version to another, update updates packages that have newer bug/security fixes", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "up"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "In the Unity app window on the upper right you can chose the System category to see all those apps too", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "is 'Window Decoration' checked?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "I did. It was long ago, but I basically had to blacklist broadcom and use ndiswrapper to get it working. I believe I haven't had to do that with lucid", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "seen:", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "welcome", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "/msg ubottu grub", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "the installer does all that", "feedback": "up"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "try this: http://apcmag.com/how_to_dual_boot_linux_and_windows_xp_linux_installed_first.htm", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "me too i have same proplem setting it", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "edit /etc/default/grub", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "edit /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "up"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "upgrade upgrades from one version to another, update updates packages that have newer bug/security fixes", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "up"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "In the Unity app window on the upper right you can chose the System category to see all those apps too", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "is 'Window Decoration' checked?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "totem menu -> edit - preferneces - display", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "it worked really well for about a week during beta period, then went away again.", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "xrandr", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "I did. It was long ago, but I basically had to blacklist broadcom and use ndiswrapper to get it working. I believe I haven't had to do that with lucid", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "seen:", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "welcome", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "/msg ubottu grub", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "the installer does all that", "feedback": "up"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "try this: http://apcmag.com/how_to_dual_boot_linux_and_windows_xp_linux_installed_first.htm", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "me too i have same proplem setting it", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "edit /etc/default/grub", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "edit /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "up"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "upgrade upgrades from one version to another, update updates packages that have newer bug/security fixes", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "up"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "In the Unity app window on the upper right you can chose the System category to see all those apps too", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "is 'Window Decoration' checked?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "totem menu -> edit - preferneces - display", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "it worked really well for about a week during beta period, then went away again.", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "xrandr", "feedback": "down"}
+{"context": "What does sudo actually do?", "response": "no, it just starts a root terminal, very similar to -s", "feedback": "up"}
+{"context": "What does sudo actually do?", "response": "exit", "feedback": "down"}
+{"context": "What does sudo actually do?", "response": "start here: https://help.ubuntu.com/community/RootSudo", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "I did. It was long ago, but I basically had to blacklist broadcom and use ndiswrapper to get it working. I believe I haven't had to do that with lucid", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "seen:", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "welcome", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "/msg ubottu grub", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "the installer does all that", "feedback": "up"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "try this: http://apcmag.com/how_to_dual_boot_linux_and_windows_xp_linux_installed_first.htm", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "me too i have same proplem setting it", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "edit /etc/default/grub", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "edit /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "up"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "upgrade upgrades from one version to another, update updates packages that have newer bug/security fixes", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "up"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "In the Unity app window on the upper right you can chose the System category to see all those apps too", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "is 'Window Decoration' checked?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "totem menu -> edit - preferneces - display", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "it worked really well for about a week during beta period, then went away again.", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "xrandr", "feedback": "down"}
+{"context": "What does sudo actually do?", "response": "no, it just starts a root terminal, very similar to -s", "feedback": "up"}
+{"context": "What does sudo actually do?", "response": "exit", "feedback": "down"}
+{"context": "What does sudo actually do?", "response": "start here: https://help.ubuntu.com/community/RootSudo", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "I did. It was long ago, but I basically had to blacklist broadcom and use ndiswrapper to get it working. I believe I haven't had to do that with lucid", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "seen:", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "welcome", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "/msg ubottu grub", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "the installer does all that", "feedback": "up"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "try this: http://apcmag.com/how_to_dual_boot_linux_and_windows_xp_linux_installed_first.htm", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "me too i have same proplem setting it", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "edit /etc/default/grub", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "edit /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "up"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "upgrade upgrades from one version to another, update updates packages that have newer bug/security fixes", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "up"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "In the Unity app window on the upper right you can chose the System category to see all those apps too", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "is 'Window Decoration' checked?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "totem menu -> edit - preferneces - display", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "it worked really well for about a week during beta period, then went away again.", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "xrandr", "feedback": "down"}
+{"context": "What does sudo actually do?", "response": "no, it just starts a root terminal, very similar to -s", "feedback": "up"}
+{"context": "What does sudo actually do?", "response": "exit", "feedback": "down"}
+{"context": "What does sudo actually do?", "response": "start here: https://help.ubuntu.com/community/RootSudo", "feedback": "up"}
+{"context": "How do I remove a package and its config files?", "response": "- use the purge flag to remove config files for the package as well ... ie apt-get --purge remove packagename", "feedback": "up"}
+{"context": "How do I remove a package and its config files?", "response": "everything working then with the --purge option?", "feedback": "down"}
+{"context": "How do I remove a package and its config files?", "response": "apt-get remove --purge", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "I did. It was long ago, but I basically had to blacklist broadcom and use ndiswrapper to get it working. I believe I haven't had to do that with lucid", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "seen:", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "welcome", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "/msg ubottu grub", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "the installer does all that", "feedback": "up"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "try this: http://apcmag.com/how_to_dual_boot_linux_and_windows_xp_linux_installed_first.htm", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "me too i have same proplem setting it", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "edit /etc/default/grub", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "edit /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "up"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "upgrade upgrades from one version to another, update updates packages that have newer bug/security fixes", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "up"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "In the Unity app window on the upper right you can chose the System category to see all those apps too", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "is 'Window Decoration' checked?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "totem menu -> edit - preferneces - display", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "it worked really well for about a week during beta period, then went away again.", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "xrandr", "feedback": "down"}
+{"context": "What does sudo actually do?", "response": "no, it just starts a root terminal, very similar to -s", "feedback": "up"}
+{"context": "What does sudo actually do?", "response": "exit", "feedback": "down"}
+{"context": "What does sudo actually do?", "response": "start here: https://help.ubuntu.com/community/RootSudo", "feedback": "up"}
+{"context": "How do I remove a package and its config files?", "response": "- use the purge flag to remove config files for the package as well ... ie apt-get --purge remove packagename", "feedback": "up"}
+{"context": "How do I remove a package and its config files?", "response": "everything working then with the --purge option?", "feedback": "down"}
+{"context": "How do I remove a package and its config files?", "response": "apt-get remove --purge", "feedback": "up"}
+{"context": "My screen resolution is stuck how do I change it?", "response": "System->Preferences->Screen Resolution", "feedback": "up"}
+{"context": "My screen resolution is stuck how do I change it?", "response": "xrandr = x resize and rotate.", "feedback": "up"}
+{"context": "My screen resolution is stuck how do I change it?", "response": "mail the nvidia developers for not developing working drivers.", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "I did. It was long ago, but I basically had to blacklist broadcom and use ndiswrapper to get it working. I believe I haven't had to do that with lucid", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "seen:", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "welcome", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "/msg ubottu grub", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "the installer does all that", "feedback": "up"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "try this: http://apcmag.com/how_to_dual_boot_linux_and_windows_xp_linux_installed_first.htm", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "me too i have same proplem setting it", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "edit /etc/default/grub", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "edit /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "up"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "upgrade upgrades from one version to another, update updates packages that have newer bug/security fixes", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "up"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "In the Unity app window on the upper right you can chose the System category to see all those apps too", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "is 'Window Decoration' checked?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "totem menu -> edit - preferneces - display", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "it worked really well for about a week during beta period, then went away again.", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "xrandr", "feedback": "down"}
+{"context": "What does sudo actually do?", "response": "no, it just starts a root terminal, very similar to -s", "feedback": "up"}
+{"context": "What does sudo actually do?", "response": "exit", "feedback": "down"}
+{"context": "What does sudo actually do?", "response": "start here: https://help.ubuntu.com/community/RootSudo", "feedback": "up"}
+{"context": "How do I remove a package and its config files?", "response": "- use the purge flag to remove config files for the package as well ... ie apt-get --purge remove packagename", "feedback": "up"}
+{"context": "How do I remove a package and its config files?", "response": "everything working then with the --purge option?", "feedback": "down"}
+{"context": "How do I remove a package and its config files?", "response": "apt-get remove --purge", "feedback": "up"}
+{"context": "My screen resolution is stuck how do I change it?", "response": "System->Preferences->Screen Resolution", "feedback": "up"}
+{"context": "My screen resolution is stuck how do I change it?", "response": "xrandr = x resize and rotate.", "feedback": "up"}
+{"context": "My screen resolution is stuck how do I change it?", "response": "mail the nvidia developers for not developing working drivers.", "feedback": "down"}
+{"context": "How do I fix broken packages in Ubuntu?", "response": "try Go to System > Administration > Synaptic Package Manager and click Edit > Fix Broken Packages. or sudo apt-get -f install", "feedback": "up"}
+{"context": "How do I fix broken packages in Ubuntu?", "response": "i dont know what im talking about tho,  would wait for someone to answer", "feedback": "down"}
+{"context": "How do I fix broken packages in Ubuntu?", "response": "yes, with dpkg", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "I did. It was long ago, but I basically had to blacklist broadcom and use ndiswrapper to get it working. I believe I haven't had to do that with lucid", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "seen:", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "welcome", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "/msg ubottu grub", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "the installer does all that", "feedback": "up"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "try this: http://apcmag.com/how_to_dual_boot_linux_and_windows_xp_linux_installed_first.htm", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "me too i have same proplem setting it", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "edit /etc/default/grub", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "edit /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "up"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "upgrade upgrades from one version to another, update updates packages that have newer bug/security fixes", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "up"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "In the Unity app window on the upper right you can chose the System category to see all those apps too", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "is 'Window Decoration' checked?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "totem menu -> edit - preferneces - display", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "it worked really well for about a week during beta period, then went away again.", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "xrandr", "feedback": "down"}
+{"context": "What does sudo actually do?", "response": "no, it just starts a root terminal, very similar to -s", "feedback": "up"}
+{"context": "What does sudo actually do?", "response": "exit", "feedback": "down"}
+{"context": "What does sudo actually do?", "response": "start here: https://help.ubuntu.com/community/RootSudo", "feedback": "up"}
+{"context": "How do I remove a package and its config files?", "response": "- use the purge flag to remove config files for the package as well ... ie apt-get --purge remove packagename", "feedback": "up"}
+{"context": "How do I remove a package and its config files?", "response": "everything working then with the --purge option?", "feedback": "down"}
+{"context": "How do I remove a package and its config files?", "response": "apt-get remove --purge", "feedback": "up"}
+{"context": "My screen resolution is stuck how do I change it?", "response": "System->Preferences->Screen Resolution", "feedback": "up"}
+{"context": "My screen resolution is stuck how do I change it?", "response": "xrandr = x resize and rotate.", "feedback": "up"}
+{"context": "My screen resolution is stuck how do I change it?", "response": "mail the nvidia developers for not developing working drivers.", "feedback": "down"}
+{"context": "How do I fix broken packages in Ubuntu?", "response": "try Go to System > Administration > Synaptic Package Manager and click Edit > Fix Broken Packages. or sudo apt-get -f install", "feedback": "up"}
+{"context": "How do I fix broken packages in Ubuntu?", "response": "i dont know what im talking about tho,  would wait for someone to answer", "feedback": "down"}
+{"context": "How do I fix broken packages in Ubuntu?", "response": "yes, with dpkg", "feedback": "down"}
+{"context": "How can I find which port a process is using?", "response": "netstat -tulpen", "feedback": "down"}
+{"context": "How can I find which port a process is using?", "response": "not sure, but have a look at the program netstat", "feedback": "down"}
+{"context": "How can I find which port a process is using?", "response": "sudo apt-get install nmap, then nmap -v -A myhostname", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "seen:", "feedback": "down"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "terminal > wpa_passphrase 'your network ssid' [passphrase]", "feedback": "up"}
+{"context": "My WiFi isn\u2019t working on Ubuntu?", "response": "I did. It was long ago, but I basically had to blacklist broadcom and use ndiswrapper to get it working. I believe I haven't had to do that with lucid", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "seen:", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "try iwlist eth1 scanning (or eth0 or wlan0, whatever your wlan device is)", "feedback": "down"}
+{"context": "Can You Give me accurate steps to solve it?", "response": "welcome", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "/msg ubottu grub", "feedback": "down"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "the installer does all that", "feedback": "up"}
+{"context": "How to install Ubuntu alongside Windows?", "response": "try this: http://apcmag.com/how_to_dual_boot_linux_and_windows_xp_linux_installed_first.htm", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "up"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "me too i have same proplem setting it", "feedback": "down"}
+{"context": "How do I update my DNS settings in Ubuntu?", "response": "edit /etc/default/grub", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "FYI i believe NetworkManager will overright resolv.conf (when it wants to), there should/might be a way to set DNS in N-M.  Good luck.", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "cat /dev/null > /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "edit /etc/resolv.conf", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "you probably need to add the repo", "feedback": "down"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "there is no chrome for linux yet...", "feedback": "up"}
+{"context": "How do I install Chrome on Ubuntu?", "response": "'chromium-browser' if you are using chromium", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "up"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "What\u2019s the difference between apt and apt-get?", "response": "upgrade upgrades from one version to another, update updates packages that have newer bug/security fixes", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "up"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "aptitude has a gui interface, apt-get is just commandline.  aptitude is smarter about dependencies too", "feedback": "down"}
+{"context": "The taskbar disappeared. How do I bring it back?", "response": "Are you on Dapper?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "In the Unity app window on the upper right you can chose the System category to see all those apps too", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "is 'Window Decoration' checked?", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "then add the application menu, the notification area, and all other things back to it", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "totem menu -> edit - preferneces - display", "feedback": "up"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "it worked really well for about a week during beta period, then went away again.", "feedback": "down"}
+{"context": "How do I enable dark mode in Ubuntu?", "response": "xrandr", "feedback": "down"}
+{"context": "What does sudo actually do?", "response": "no, it just starts a root terminal, very similar to -s", "feedback": "up"}
+{"context": "What does sudo actually do?", "response": "exit", "feedback": "down"}
+{"context": "What does sudo actually do?", "response": "start here: https://help.ubuntu.com/community/RootSudo", "feedback": "up"}
+{"context": "How do I remove a package and its config files?", "response": "- use the purge flag to remove config files for the package as well ... ie apt-get --purge remove packagename", "feedback": "up"}
+{"context": "How do I remove a package and its config files?", "response": "everything working then with the --purge option?", "feedback": "down"}
+{"context": "How do I remove a package and its config files?", "response": "apt-get remove --purge", "feedback": "up"}
+{"context": "My screen resolution is stuck how do I change it?", "response": "System->Preferences->Screen Resolution", "feedback": "up"}
+{"context": "My screen resolution is stuck how do I change it?", "response": "xrandr = x resize and rotate.", "feedback": "up"}
+{"context": "My screen resolution is stuck how do I change it?", "response": "mail the nvidia developers for not developing working drivers.", "feedback": "down"}
+{"context": "How do I fix broken packages in Ubuntu?", "response": "try Go to System > Administration > Synaptic Package Manager and click Edit > Fix Broken Packages. or sudo apt-get -f install", "feedback": "up"}
+{"context": "How do I fix broken packages in Ubuntu?", "response": "i dont know what im talking about tho,  would wait for someone to answer", "feedback": "down"}
+{"context": "How do I fix broken packages in Ubuntu?", "response": "yes, with dpkg", "feedback": "down"}
+{"context": "How can I find which port a process is using?", "response": "netstat -tulpen", "feedback": "down"}
+{"context": "How can I find which port a process is using?", "response": "not sure, but have a look at the program netstat", "feedback": "down"}
+{"context": "How can I find which port a process is using?", "response": "sudo apt-get install nmap, then nmap -v -A myhostname", "feedback": "down"}
+{"context": "How can I find which port a process is using?", "response": "netstat -tulpen", "feedback": "up"}
+{"context": "How can I find which port a process is using?", "response": "netstat -tpan |grep :port_number", "feedback": "up"}
+{"context": "How can I find which port a process is using?", "response": "netstat -tulpen", "feedback": "up"}
+{"context": "How can I find which port a process is using?", "response": "sudo apt-get install nmap, then nmap -v -A myhostname", "feedback": "down"}
