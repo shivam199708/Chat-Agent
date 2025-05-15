@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.neighbors import NearestNeighbors
 
 def train_semantic_agent(
-    data_path="data/processed/dialog_pairs.jsonl",
+    data_path="data/processed/cleaned_dialog_pairs.jsonl",
     model_output_dir="models/"
 ):
     # Load data
