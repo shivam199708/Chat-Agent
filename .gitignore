@@ -11,6 +11,6 @@ __pycache__/
 env/
 
 # Raw data
-data/raw/
+data/raw////
 data/processed/
 
